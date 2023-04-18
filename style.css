@@ -1,0 +1,106 @@
+    .header {
+        padding: 80px; 
+        text-align: center; 
+        background: #1abc9c; /*zelena boja*/
+        color: white; 
+    }
+
+    .header h1 {
+        font-size: 40px;
+    }
+    
+    /* Stilizovanje navigacionog bara */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+    }   
+
+    /* Stilizovanje linkova navigacionog bara */
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+
+    /* Menjanje boja na prelaženju */
+    .navbar a:hover {
+        background-color: grey;
+        color: black;
+    }
+    .footer {
+        text-align: center;
+        background: grey;
+    }
+    .container-box {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+    .input-field {
+        padding: 7px;
+        margin: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px 1px black;
+        width: 250px;
+        max-width: 500px;
+        max-height: 500px;
+        background-color: rgb(236, 227, 227);
+    }
+
+    .input-field:focus {
+        background-color: white;
+    }
+
+    #btn-submit:hover {
+        cursor: pointer;
+        background-color: rgb(107, 218, 107);
+    }
+
+    #btn-reset:hover  {
+        cursor: pointer;
+        background-color: rgb(255, 48, 48);
+    }
+
+    .main {
+        background-color: white;
+        padding: 20px;
+        text-align:center;
+    }
+
+    .input-field:focus {
+        background-color: white;
+    }
+
+    .about-section{
+        padding: 20px;
+        text-align:center;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        display:flex;
+    }
+
+    .li img{
+        width: 70%;
+        height: auto;
+        justify-content: center;
+
+    }
+
+    .ch img{
+        width: 135%;
+        height: auto;
+        justify-content: center;
+    }
+
+    a:link { text-decoration: none; color: #1abc9c;} 
+

@@ -1,7 +1,7 @@
     .header {
         padding: 80px; 
         text-align: center; 
-        background: #1abc9c; /*zelena boja*/
+        background: #1ddbcb; /*zelena boja*/
         color: white; 
     }
 
@@ -19,12 +19,15 @@
     .navbar a {
         float: left;
         display: block;
-        color: white;
+        color: #1ddbcb;  
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
     }
 
+	a{
+		color: #1ddbcb;
+	}
 
     /* Menjanje boja na prelaženju */
     .navbar a:hover {
@@ -102,5 +105,5 @@
         justify-content: center;
     }
 
-    a:link { text-decoration: none; color: #1abc9c;} 
+    a:link { text-decoration: none; color: #1ddbcb;} 
 
